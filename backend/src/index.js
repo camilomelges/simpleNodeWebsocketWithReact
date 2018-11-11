@@ -10,6 +10,10 @@ socket.on('new_tweet', (data) => {
     console.log(data);
 });
 
+socket.on('like_tweet', (data) => {
+    console.log(data);
+});
+
 mongoose.connect('mongodb://milo:sk7walk34@ds155243.mlab.com:55243/goweek_milo', {
     useNewUrlParser: true
 });

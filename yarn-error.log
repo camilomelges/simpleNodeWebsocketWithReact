@@ -1,0 +1,32 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn start
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mky/Android/Sdk/tools:/home/mky/Android/Sdk/platform-tools:/home/mky/Android/Sdk/tools:/home/mky/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.11.2
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Couldn't find a package.json file in "/home/mky/projects/simpleNodeWebsocketWithReact"
+      at new MessageError (/usr/lib/node_modules/yarn/lib/cli.js:186:110)
+      at /usr/lib/node_modules/yarn/lib/cli.js:40048:15
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /usr/lib/node_modules/yarn/lib/cli.js:109:13
+      at <anonymous>
